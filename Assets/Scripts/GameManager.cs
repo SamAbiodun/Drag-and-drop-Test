@@ -43,16 +43,14 @@ public class GameManager : MonoBehaviour
         if (Banana.locked && not1)
         {
             source.PlayOneShot(success);
-            source.PlayOneShot(appear);
-            second.SetActive(true);
+            StartCoroutine(Spawn2());
             not1 = false;
         }
 
         if (Grape.locked && not2)
         {
             source.PlayOneShot(success);
-            source.PlayOneShot(appear);
-            third.SetActive(true);
+            StartCoroutine(Spawn3());
             not2 = false;
         }
 
@@ -73,6 +71,18 @@ public class GameManager : MonoBehaviour
         first.SetActive(true);
     }
 
+    IEnumerator Spawn2()
+    {
+        yield return new WaitForSeconds(1.5f);
+        source.PlayOneShot(appear);
+        second.SetActive(true);
+    }
+    IEnumerator Spawn3()
+    {
+        yield return new WaitForSeconds(1.5f);
+        source.PlayOneShot(appear);
+        third.SetActive(true);
+    }
     /*public IEnumerator Spawn(float time)
     {
         int x = 0, lastX = 0;
