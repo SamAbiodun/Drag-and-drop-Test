@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6635667534643635062
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2128414263450809172, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: mount
+      value: 
+      objectReference: {fileID: 388971173797889781, guid: e95b4f2ef504c2442bbe8f98ca83e5e1, type: 3}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618717829111934740, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6072592054488586171, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b918dca9fb91bc64f975ed2179d67859, type: 3}
+    - target: {fileID: 7147375862104571529, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
+      propertyPath: m_Name
+      value: Grape
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cdd28609d5389ab46b52edaf25cbf739, type: 3}
