@@ -25,7 +25,10 @@ public class GameManager : MonoBehaviour
         not2 = true;
         not3 = true;
         text.SetActive(false);
-        Invoke("Beginning", 1.5f);
+        Invoke("Sounds", 0.083f);
+        Invoke("Sounds", 0.6f);
+        Invoke("Sounds", 1.1f);
+        Invoke("Beginning", 1.7f);
         //var randomSet = fruitPrefabs.OrderBy(s => Random.value).Take(3).ToList();
         /*for (int i = 0; i < randomSet.Count; i++)
         {
@@ -63,6 +66,11 @@ public class GameManager : MonoBehaviour
         {
             text.SetActive(true);
         }
+    }
+
+    void Sounds()
+    {
+        source.PlayOneShot(appear);
     }
 
     void Beginning()
