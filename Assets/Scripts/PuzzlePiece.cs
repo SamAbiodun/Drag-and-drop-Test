@@ -40,7 +40,7 @@ public class PuzzlePiece : MonoBehaviour
     }
     void OnMouseUp()
     {
-        if (Vector2.Distance(transform.position, slot.transform.position) < 2)
+        if (Vector2.Distance(transform.position, slot.transform.position) < 0.5f)
         {
             transform.position = slot.position;
             source.PlayOneShot(success);
