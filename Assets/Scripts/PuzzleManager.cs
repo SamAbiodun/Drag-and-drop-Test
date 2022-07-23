@@ -10,7 +10,6 @@ public class PuzzleManager : MonoBehaviour
     [SerializeField] AudioClip success;
 
     [SerializeField] Transform spawnLocation;
-    [SerializeField] Transform moveTo;
 
     public GameObject gameOver;
 
@@ -30,11 +29,7 @@ public class PuzzleManager : MonoBehaviour
         //not1 = true;
         not2 = true;
         not3 = true;
-
-        Invoke("Sounds", 0.083f);
-        Invoke("Sounds", 0.6f);
-        Invoke("Sounds", 1.1f);
-
+        Appear();
         Spawn();
         Invoke("Spawn1", 1.7f);
         //spawnPiece1.SetActive(true);
@@ -70,13 +65,13 @@ public class PuzzleManager : MonoBehaviour
 
     IEnumerator Spawn2()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.8f);
         spawnPiece2.SetActive(true);
         source.PlayOneShot(appear);
     }
     IEnumerator Spawn3()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.8f);
         spawnPiece3.SetActive(true);
         source.PlayOneShot(appear);
     }
@@ -95,5 +90,12 @@ public class PuzzleManager : MonoBehaviour
         spawnPiece1.SetActive(false);
         spawnPiece2.SetActive(false);
         spawnPiece3.SetActive(false);
+    }
+
+    void Appear()
+    {
+        Invoke("Sounds", 0.083f);
+        Invoke("Sounds", 0.6f);
+        Invoke("Sounds", 1.1f);
     }
 }
